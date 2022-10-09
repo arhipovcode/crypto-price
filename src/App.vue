@@ -1,7 +1,7 @@
 <template>
     <div class="container">
-        <Scoreboard />
-        <BlockTickers />
+        <Scoreboard/>
+        <BlockTickers/>
     </div>
 </template>
 
@@ -10,11 +10,16 @@ import Scoreboard from './components/scoreboard.vue'
 import BlockTickers from './components/blockTickers.vue'
 
 export default {
-  name: 'App',
-  components: {
-      Scoreboard,
-      BlockTickers,
-  }
+    name: 'App',
+    components: {
+        Scoreboard,
+        BlockTickers,
+    },
+    data() {
+        return {
+
+        }
+    },
 }
 </script>
 
